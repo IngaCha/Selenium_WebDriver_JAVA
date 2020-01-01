@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17770" started-at="2020-01-01T20:31:51 EET" finished-at="2020-01-01T20:32:09 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17770" started-at="2020-01-01T20:31:51 EET" finished-at="2020-01-01T20:32:09 EET">
+      <class name="com.trainings.maven.ichamentauskiene.OpenBrowserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.trainings.maven.ichamentauskiene.OpenBrowserTest@610694f1]" name="setUp" is-config="true" duration-ms="16983" started-at="2020-01-01T20:31:51 EET" finished-at="2020-01-01T20:32:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchElement()[pri:0, instance:com.trainings.maven.ichamentauskiene.OpenBrowserTest@610694f1]" name="searchElement" duration-ms="7" started-at="2020-01-01T20:32:08 EET" finished-at="2020-01-01T20:32:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchElement -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.trainings.maven.ichamentauskiene.OpenBrowserTest@610694f1]" name="closeBrowser" is-config="true" duration-ms="751" started-at="2020-01-01T20:32:08 EET" finished-at="2020-01-01T20:32:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.trainings.maven.ichamentauskiene.OpenBrowserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
