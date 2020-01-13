@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9916" started-at="2020-01-13T13:52:56 EET" finished-at="2020-01-13T13:53:06 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9916" started-at="2020-01-13T13:52:56 EET" finished-at="2020-01-13T13:53:06 EET">
+      <class name="com.trainings.maven.BasicSelenium.SearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.trainings.maven.BasicSelenium.SearchTest@7fac631b]" name="setUp" is-config="true" duration-ms="5684" started-at="2020-01-13T13:52:56 EET" finished-at="2020-01-13T13:53:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchElement()[pri:0, instance:com.trainings.maven.BasicSelenium.SearchTest@7fac631b]" name="searchElement" duration-ms="3527" started-at="2020-01-13T13:53:02 EET" finished-at="2020-01-13T13:53:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchElement -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.trainings.maven.BasicSelenium.SearchTest@7fac631b]" name="closeBrowser" is-config="true" duration-ms="677" started-at="2020-01-13T13:53:06 EET" finished-at="2020-01-13T13:53:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.trainings.maven.BasicSelenium.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
