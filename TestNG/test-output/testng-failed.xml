@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="surname" value="laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+  <parameter name="name" value="IngaChaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+  <test name="Parameters(failed)" parallel="none">
+    <parameter name="surname" value="laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+    <parameter name="name" value="IngaChaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+    <classes>
+      <class name="com.trainings.maven.TestNG.SendTestNGParametersTestPOM">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+          <include name="assertSelectedValueIsSeychelles"/>
+        </methods>
+      </class> <!-- com.trainings.maven.TestNG.SendTestNGParametersTestPOM -->
+    </classes>
+  </test> <!-- Parameters(failed) -->
+</suite> <!-- Failed suite [Suite] -->

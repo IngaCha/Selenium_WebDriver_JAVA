@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<test name="Parameters">
+		<parameter name="name" value="IngaChaaaaaaaaaaaa" />
+		<parameter name="surname" value="laaaaaaaaaaaaaa" />
+		<classes>
+			<class
+				name="com.trainings.maven.TestNG.SendTestNGParametersTest" />
+		</classes>
+	</test>
+</suite>

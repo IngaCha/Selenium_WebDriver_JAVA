@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9413" started-at="2020-01-16T19:25:36Z" finished-at="2020-01-16T19:25:45Z">
+    <groups>
+      <group name="car">
+        <method signature="TestNGExample1POM.assertDropdown()[pri:0, instance:com.trainings.maven.TestNG.TestNGExample1POM@ca263c2]" name="assertDropdown" class="com.trainings.maven.TestNG.TestNGExample1POM"/>
+        <method signature="TestNGExample1POM.sendKeys()[pri:0, instance:com.trainings.maven.TestNG.TestNGExample1POM@ca263c2]" name="sendKeys" class="com.trainings.maven.TestNG.TestNGExample1POM"/>
+      </group> <!-- car -->
+    </groups>
+    <test name="Testing Suite" duration-ms="9413" started-at="2020-01-16T19:25:36Z" finished-at="2020-01-16T19:25:45Z">
+      <class name="com.trainings.maven.TestNG.TestNGExample2POM">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.trainings.maven.TestNG.TestNGExample2POM@57d5872c]" name="setUp" is-config="true" duration-ms="4507" started-at="2020-01-16T21:25:36Z" finished-at="2020-01-16T21:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="assertSearchField()[pri:0, instance:com.trainings.maven.TestNG.TestNGExample2POM@57d5872c]" name="assertSearchField" duration-ms="12" started-at="2020-01-16T21:25:41Z" finished-at="2020-01-16T21:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertSearchField -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.trainings.maven.TestNG.TestNGExample2POM@57d5872c]" name="closeBrowser" is-config="true" duration-ms="863" started-at="2020-01-16T21:25:45Z" finished-at="2020-01-16T21:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.trainings.maven.TestNG.TestNGExample2POM -->
+      <class name="com.trainings.maven.TestNG.TestNGExample1POM">
+        <test-method status="PASS" signature="assertSearchField()[pri:0, instance:com.trainings.maven.TestNG.TestNGExample1POM@ca263c2]" name="assertSearchField" duration-ms="56" started-at="2020-01-16T21:25:41Z" finished-at="2020-01-16T21:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertSearchField -->
+        <test-method status="PASS" signature="assertWishListButton()[pri:0, instance:com.trainings.maven.TestNG.TestNGExample1POM@ca263c2]" name="assertWishListButton" duration-ms="39" started-at="2020-01-16T21:25:41Z" finished-at="2020-01-16T21:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertWishListButton -->
+        <test-method status="PASS" signature="wishListNotNullText()[pri:0, instance:com.trainings.maven.TestNG.TestNGExample1POM@ca263c2]" name="wishListNotNullText" duration-ms="25" started-at="2020-01-16T21:25:41Z" finished-at="2020-01-16T21:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishListNotNullText -->
+        <test-method status="PASS" signature="sendKeys()[pri:0, instance:com.trainings.maven.TestNG.TestNGExample1POM@ca263c2]" name="sendKeys" duration-ms="960" started-at="2020-01-16T21:25:41Z" finished-at="2020-01-16T21:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendKeys -->
+        <test-method status="PASS" signature="assertDropdown()[pri:0, instance:com.trainings.maven.TestNG.TestNGExample1POM@ca263c2]" name="assertDropdown" duration-ms="2374" started-at="2020-01-16T21:25:42Z" finished-at="2020-01-16T21:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertDropdown -->
+        <test-method status="PASS" signature="assertAgreeCheckbox()[pri:0, instance:com.trainings.maven.TestNG.TestNGExample1POM@ca263c2]" name="assertAgreeCheckbox" duration-ms="559" started-at="2020-01-16T21:25:44Z" finished-at="2020-01-16T21:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAgreeCheckbox -->
+        <test-method status="PASS" signature="assertNullExample()[pri:0, instance:com.trainings.maven.TestNG.TestNGExample1POM@ca263c2]" name="assertNullExample" duration-ms="1" started-at="2020-01-16T21:25:45Z" finished-at="2020-01-16T21:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNullExample -->
+      </class> <!-- com.trainings.maven.TestNG.TestNGExample1POM -->
+    </test> <!-- Testing Suite -->
+  </suite> <!-- Suite -->
+</testng-results>

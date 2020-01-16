@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<test name="Grouping">
+		<groups>
+			<run>
+				<include name="car" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trainings.maven.TestNG.TestNGExample1POM" />
+		</classes>
+	</test>
+</suite>
