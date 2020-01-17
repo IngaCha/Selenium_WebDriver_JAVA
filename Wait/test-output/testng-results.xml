@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16225" started-at="2020-01-17T11:01:21Z" finished-at="2020-01-17T11:01:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16225" started-at="2020-01-17T11:01:21Z" finished-at="2020-01-17T11:01:37Z">
+      <class name="com.trainings.maven.Wait.WaitExamplesTestPOM">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.trainings.maven.Wait.WaitExamplesTestPOM@1810399e]" name="setUp" is-config="true" duration-ms="5543" started-at="2020-01-17T13:01:21Z" finished-at="2020-01-17T13:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:com.trainings.maven.Wait.WaitExamplesTestPOM@1810399e]" name="addToCart" duration-ms="10020" started-at="2020-01-17T13:01:26Z" finished-at="2020-01-17T13:01:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.trainings.maven.Wait.WaitExamplesTestPOM@1810399e]" name="closeBrowser" is-config="true" duration-ms="656" started-at="2020-01-17T13:01:36Z" finished-at="2020-01-17T13:01:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.trainings.maven.Wait.WaitExamplesTestPOM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
