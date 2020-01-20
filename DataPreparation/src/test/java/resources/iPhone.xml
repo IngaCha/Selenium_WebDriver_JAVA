@@ -1,0 +1,6 @@
+<com.trainings.maven.DataPreparation.ShopItem>
+	<name>IPhone</name>
+	<price>$123.20</price>
+	<brand>Apple</brand>
+	<productCode>product 11</productCode>
+</com.trainings.maven.DataPreparation.ShopItem>

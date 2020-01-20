@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5460" started-at="2020-01-20T12:33:26 EET" finished-at="2020-01-20T12:33:31 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5460" started-at="2020-01-20T12:33:26 EET" finished-at="2020-01-20T12:33:31 EET">
+      <class name="com.trainings.maven.DataPreparation.DataPrepParametersTestNGTestPOM">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.trainings.maven.DataPreparation.DataPrepParametersTestNGTestPOM@43814d18]" name="setUp" is-config="true" duration-ms="4810" started-at="2020-01-20T12:33:26 EET" finished-at="2020-01-20T12:33:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="createNewAccount(java.lang.String)[pri:0, instance:com.trainings.maven.DataPreparation.DataPrepParametersTestNGTestPOM@43814d18]" name="createNewAccount" duration-ms="0" started-at="2020-01-20T12:33:30 EET" data-provider="data-provider" finished-at="2020-01-20T12:33:30 EET">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void com.trainings.maven.DataPreparation.DataPrepParametersTestNGTestPOM.createNewAccount(java.lang.String) requires a @DataProvider named : data-provider]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void com.trainings.maven.DataPreparation.DataPrepParametersTestNGTestPOM.createNewAccount(java.lang.String) requires a @DataProvider named : data-provider
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:580)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:795)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.trainings.maven.DataPreparation.DataPrepParametersTestNGTestPOM@43814d18]" name="closeBrowser" is-config="true" duration-ms="623" started-at="2020-01-20T12:33:30 EET" finished-at="2020-01-20T12:33:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.trainings.maven.DataPreparation.DataPrepParametersTestNGTestPOM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
