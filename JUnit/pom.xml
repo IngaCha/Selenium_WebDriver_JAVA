@@ -36,7 +36,7 @@
 			<artifactId>junit</artifactId>
 			<!-- lower version causes categories fail to work -->
 			<!-- could cause surefire fail to work though -->
-			<version>4.12</version>
+			<version>4.13.1</version>
 			<scope>test</scope>
 
 		</dependency>
